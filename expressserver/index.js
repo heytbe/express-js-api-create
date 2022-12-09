@@ -38,8 +38,8 @@ app.get("/users/:id",(req,res)=>{
 
 app.get("/hakkimizda",(req,res)=>{
    res.send([{
-      ad : "öztürk",
-      okul : "avrasya üniversitesi"
+      ad : "deneme",
+      okul : "heytbe üniversitesi"
    }]);
 });
 
